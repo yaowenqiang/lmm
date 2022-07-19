@@ -19,6 +19,44 @@
 
 
 ## Command Line Tools from sysstat
+
+### vmstat
+
+> vmstat -S M
+> ls -R / # will increase memory buffered
+> free -m
+> sync
+> sudo bash -c "echo 3 > /proc/sys/vm/drop_caches"
+> free -m
+> vmstat 5  3
+> uptime
+> who -l
+> who -T
+
+> root     + pts/0        2022-06-24 18:42 (61.144.189.155)  # + means message is turned on
+
+> mesg n # turn mesg off
+> tty
+> mesg y # turn mesg on
+
+> netstat -alt # list all listend tcp connection
+> netstat -alx # list all listend socket
+> ls -lh /var/run/dbus/system_bus_socket
+> srwxrwxrwx 1 root root 0 Nov 13  2021 /var/run/dbus/system_bus_socket  # s means socket
+> ps -elf
+> netstat -alt # list connections on listening TCP
+> sudo lsof -i 
+> netstat -i 
+> netstat -s
+> sudo iptables -nvL
+> watch -d sudo iptables -nvL # changes will be highlighted
+> yum install sysstat
+> cat /etc/cron.d/sysstat
+
+
+
+
+
 ## using collectd to graph system performance
 ## Monitoring availability with Nagios
 ## Basic networking and Wireless LAN
@@ -26,3 +64,5 @@
 ## Project Building a Raspberry Pi Wireless Access Point
 ## Building from source
 ## Backup your data
+## Ways to notify users
+
