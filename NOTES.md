@@ -54,6 +54,15 @@
 > cat /etc/cron.d/sysstat
 
 
+> sar -V
+> sar or sar -u
+> sar -q
+> sar -q 1 3
+> sar -q -f /var/log/sa/sa15 (CentOS)
+> sar -q -f /var/log/sysstat/sa15 (Ubuntu)
+> sar -w
+> sar -n DEV
+> sar -q -s 10:00:00 -e 11:00:00
 
 
 
