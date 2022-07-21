@@ -67,6 +67,10 @@
 
 
 ## using collectd to graph system performance
+
+> yum install collectd collect-rrdtool rrdtool collectd-web httpd
+> /etc/collectd.conf
+
 ## Monitoring availability with Nagios
 ## Basic networking and Wireless LAN
 ## Advanced network administration
