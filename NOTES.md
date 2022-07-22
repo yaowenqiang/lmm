@@ -72,6 +72,16 @@
 > /etc/collectd.conf
 
 ## Monitoring availability with Nagios
+
+> NSClient++ for windows
+> sudo apt install tasksel
+> grep Task /usr/share/tasksel/ubuntu-tasks.desc
+> sudo task OR
+> sudo tasksel install lamp-server
+> sudo apt-get install nagios3
+
+
+
 ## Basic networking and Wireless LAN
 ## Advanced network administration
 ## Project Building a Raspberry Pi Wireless Access Point
